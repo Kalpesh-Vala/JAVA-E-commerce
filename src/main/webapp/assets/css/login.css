@@ -1,0 +1,21 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* 
+    Created on : Oct 19, 2024, 10:29:39 PM
+    Author     : kalpesh
+*/
+.login-card {
+                max-width: 400px;
+                margin: 60px auto;
+                padding: 20px;
+                border-radius: 10px;
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.form-control {
+    margin-bottom: 15px;
+}
+.input-group-text {
+    cursor: pointer;
+}

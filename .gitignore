@@ -19,3 +19,39 @@ gradle-app.setting
 .project
 # JDT-specific (Eclipse Java Development Tools)
 .classpath
+
+# Gradle
+.gradle/
+build/
+out/
+
+# Ignore Gradle wrapper jar files
+!gradle/wrapper/gradle-wrapper.jar
+
+# IDE files (example for IntelliJ IDEA, Eclipse, and VS Code)
+.idea/
+*.iml
+*.ipr
+*.iws
+*.sublime-workspace
+*.sublime-project
+*.class
+*.project
+*.classpath
+.vscode/
+*.swp
+
+# Operating System files
+.DS_Store
+Thumbs.db
+
+# Logs and temporary files
+*.log
+*.tmp
+*.swp
+*.swo
+*.bak
+
+# Other generated files
+bin/
+

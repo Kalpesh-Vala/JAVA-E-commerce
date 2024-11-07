@@ -1,0 +1,24 @@
+apply plugin: 'java'
+apply plugin: 'jacoco'
+apply plugin: 'war'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    providedCompile 'jakarta.platform:jakarta.jakartaee-web-api:8.0.0'
+    implementation fileTree(dir: 'libs', include: '*.jar')
+    testImplementation     'junit:junit:4.13'
+
+    compileOnly 'org.projectlombok:lombok:1.18.34'
+    annotationProcessor 'org.projectlombok:lombok:1.18.34'
+
+    testCompileOnly 'org.projectlombok:lombok:1.18.34'
+    testAnnotationProcessor 'org.projectlombok:lombok:1.18.34'
+
+    // JSTL dependency
+    implementation 'javax.servlet:jstl:1.2'
+    implementation 'org.glassfish.web:javax.servlet.jsp.jstl:1.2.5'
+
+}
